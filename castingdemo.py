@@ -24,5 +24,3 @@ print(f"Float to integer: {num_int}")
 my_list = ['a', 'b', 'c']
 list_str = ''.join(my_list)  # join list elements into a string
 print(f"List to string: {list_str}")
-git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
