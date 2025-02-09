@@ -24,6 +24,6 @@ employee_names[2]="zara"
 print("After changing index 2 to Zara:", ",".join(employee_names))
 
 #Spliting sentence
-sentence = "Alice, Bob, Charlie"
-split_names = sentence.split(",")
-print("After split:", split_names)
+link = "github.com/chayan0104/Chayan_Python"
+splitlink=link.split("/")
+print("After split:", splitlink)
