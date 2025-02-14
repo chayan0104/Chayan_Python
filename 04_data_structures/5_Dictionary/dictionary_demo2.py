@@ -12,6 +12,11 @@ emp_dict["Address"]="Kolkata"
 print(emp_dict["Address"])  #print the key value address
 print("Employee details now:",emp_dict)
 
+# Update method
+print("\nUpdate method")
+emp_dict.update({"Name":"Chayan Samanta"})
+print("Name updated:",emp_dict["Name"])
+
 # Adding job 
 print("\nAdding Job:")
 emp_dict["Job"]="Software Engineer"
@@ -34,12 +39,10 @@ print("\nIterating items:")
 for key, value in emp_dict.items():
   print(key, ":", value)  # Iterate over key-value pairs
 
-
 # Using get() to safely access a value
 print("\nUsing get() method:")
 print(emp_dict.get("Name"))
  
-
 # Copy Dictionary
 print("\nCopy Dictionary:")
 new_dict_emp = emp_dict.copy()

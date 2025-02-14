@@ -17,6 +17,9 @@ def inser_at_position(person,cost,position):
 
 employee_list= inser_at_position("Sayam",100,0)
 
+for key,value in employee_list.items():
+    print(key,":",value)
+
 # Correct logger.info usage with formatting
 logger.info("Cost: {}", employee_list)
 print("Done added ")
