@@ -52,5 +52,3 @@ print(new_dict_emp.items())
 print("\nConverting Dictionary to List:")
 emplist = list(emp_dict.items())
 print("As a list",emplist)
-
-
