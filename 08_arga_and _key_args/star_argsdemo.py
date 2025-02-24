@@ -1,4 +1,4 @@
-# star argument 
+# star argument
 def total_sum(discount, *cost):
     result = 0
     for price in cost:
